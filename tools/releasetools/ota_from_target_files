@@ -517,13 +517,11 @@ else if get_stage("%(bcb_dev)s", "stage") == "3/3" then
     script.FormatPartition("/data", OPTIONS.mount_by_label)
 
   script.Print("#######################################");
-  script.Print("# _____            __  __  ______     #");
-  script.Print("#/\  __`\  /'\_/`\/\ \/\ \/\__  _\    #");
-  script.Print("#\ \ \/\ \/\  ``  \ \ ` \ \/_/\ \/    #");
-  script.Print("# \ \ \ \ \ \ \__\ \ \ . ` \ \ \ \    #");
-  script.Print("#  \ \ \_\ \ \ \_/\ \ \ \`\ \ \_\ \__ #");
-  script.Print("#   \ \_____\ \_\, \_\ \_\ \_\/\_____\#");
-  script.Print("#    \/_____/\/_/ \/_/\/_/\/_/\/_____/#");
+  script.Print("#        _                   _        #");
+  script.Print("#       | | ____ _ _ __ ___ (_)       #");
+  script.Print("#       | |/ / _` | '_ ` _ \| |       #");
+  script.Print("#       |   < (_| | | | | | | |       #");
+  script.Print("#       |_|\_\__,_|_| |_| |_|_|       #");
   script.Print("#                                     #");
   script.Print("#######################################");
 
@@ -563,7 +561,7 @@ else if get_stage("%(bcb_dev)s", "stage") == "3/3" then
   script.WriteRawImage("/boot", "boot.img")
 
   script.ShowProgress(0.1, 0)
-  script.Print("Enjoy OMNI ROM!");
+  script.Print("Enjoy kami-rom!!");
   device_specific.FullOTA_InstallEnd()
 
   if OPTIONS.extra_script is not None:
