@@ -43,7 +43,7 @@ default_team_rem = "kami-rom"
 # this shouldn't change unless google makes changes
 local_manifest_dir = ".repo/local_manifests"
 # change this to your name on github (or equivalent hosting)
-android_team = "kami"
+android_team = "kami-rom"
 
 
 def check_repo_exists(git_data):
