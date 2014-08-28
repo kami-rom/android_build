@@ -10,15 +10,7 @@ ARCH_ARM_HAVE_NEON              := true
 ifeq ($(strip $(TARGET_CPU_VARIANT)),cortex-a15)
 	arch_variant_cflags := -mcpu=cortex-a15
 else
-<<<<<<< HEAD
-<<<<<<< HEAD
 ifeq ($(strip $(TARGET_CPU_VARIANT)),cortex-a9)
-=======
-ifeq ($(strip $(TARGET_CPU_VARIANT)), cortex-a9)
->>>>>>> 0cf8940... JustArchi's ArchiDroid Optimizations V3
-=======
-ifeq ($(strip $(TARGET_CPU_VARIANT)), cortex-a9)
->>>>>>> 0cf8940... JustArchi's ArchiDroid Optimizations V3
 	arch_variant_cflags := -mcpu=cortex-a9
 else
 ifeq ($(strip $(TARGET_CPU_VARIANT)),cortex-a8)
@@ -42,15 +34,9 @@ endif
 endif
 endif
 endif
-<<<<<<< HEAD
-<<<<<<< HEAD
 endif
 endif
 endif
-=======
->>>>>>> 0cf8940... JustArchi's ArchiDroid Optimizations V3
-=======
->>>>>>> 0cf8940... JustArchi's ArchiDroid Optimizations V3
 
 arch_variant_cflags += \
     -mfloat-abi=softfp \
